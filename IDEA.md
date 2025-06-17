@@ -2,8 +2,6 @@
 
 ## Mission Context & Assumptions
 
-This project models a scenario inspired by DARPA-style challenges, prioritizing concept validation over full physical realism.
-
 - **Environment**: Unknown, likely enclosed but possibly open. Topology and terrain complexity are not known a priori.
 - **Agents**: Multiple autonomous robots deployed without any communication or identification capability.
   - No RF or acoustic communication.
