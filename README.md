@@ -12,6 +12,7 @@ Based on my thesis, Anti-cohesion swarming. Similar to Boids.
 - Intel Realsense D435
 
 ## Parts list (not yet purchased)
+### Electronics/electrical
 - 2 * 310 Encoder Motors, Rated Voltage 7.4V, Rated Power 4.8W, Gear 1:20, 9000 RPM (~450 RPM after reduction) , Rated Torque 0.4 kg*cm, AB phase Hall Encoder
 - 1 * Raspberry Pi 5 power extension board from Yahboom
 - 1 * STM32F103C8T6 - For encoder offloading
@@ -21,7 +22,12 @@ Based on my thesis, Anti-cohesion swarming. Similar to Boids.
 - 2 * TB6612FNG Motor Driver
 - 2 * MPU-6050 IMU
 
+### Mechanical
 - 1 * 1 inch generic caster wheel
 - 2 * motor bracket
 - 2 * rubber tires
-- 1 * bracket for chassis 
+- 1 * bracket for chassis
+
+### Accessories
+- 1 * LiPo charger
+- 1 * USB Isolator -1500V, ADUM3160 (maybe)
