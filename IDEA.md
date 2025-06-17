@@ -1,6 +1,6 @@
 # Adaptive Multi-Agent Exploration in Communication-Denied Environments
 
-## 🎯 Mission Context & Assumptions
+## Mission Context & Assumptions
 
 This project models a scenario inspired by DARPA-style challenges, prioritizing concept validation over full physical realism.
 
@@ -20,7 +20,7 @@ This project models a scenario inspired by DARPA-style challenges, prioritizing 
 
 ---
 
-## 🔍 Core Concept
+## Core Concept
 
 ### Adaptive Behavior Based on Environmental Complexity
 
@@ -40,7 +40,7 @@ This balances **coverage density** in cluttered areas with **spatial reach** in 
 
 ---
 
-## 🔁 Exploration Logic Summary
+## Exploration Logic Summary
 
 Each robot follows an independent loop:
 
@@ -60,7 +60,7 @@ Each robot follows an independent loop:
 
 ---
 
-## ⚠️ Limitations and Refinements
+## Limitations and Refinements
 
 - **Complexity ≠ information**:
   - High feature density may not imply high *novelty*.
@@ -75,7 +75,7 @@ Each robot follows an independent loop:
 
 ---
 
-## 🧠 Potential Improvement Terms
+## Potential Improvement Terms
 
 - **Information Gain Rate**: New map data acquired per step.
 - **Path Redundancy Penalty**: A cost added when revisiting previously covered areas.
@@ -84,7 +84,7 @@ Each robot follows an independent loop:
 
 ---
 
-## 🧪 Simulation Approach (Future Work)
+## Simulation Approach (Future Work)
 
 - 2D Python-based simulation using occupancy grids or feature maps.
 - Robots act as particles with directional bias influenced by internal complexity metric.
