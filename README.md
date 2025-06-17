@@ -6,6 +6,7 @@ Ultimately use one robot multiple times to simulate multiple robots mapping diff
 
 ## Assumptions
 Based on my thesis, Anti-cohesion swarming. Similar to Boids.
+Determining when to merge with other robots is a paired problem with determining which way to merge.
 
 ## What we have now
 - Raspberry Pi 5 + active fan
