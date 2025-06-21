@@ -9,14 +9,17 @@ Based on my thesis, Anti-cohesion swarming. Similar to Boids.
 Determining when to merge with other robots is a paired problem with determining which way to merge.
 
 ## What we have now
-- Raspberry Pi 5 + active fan
-- Intel Realsense D435
+- 1 * Raspberry Pi 5 + active fan
+- 1 * Intel Realsense D435
+- 1 * STM32F103C8T6 - For encoder offloading
 
 ## Parts list (not yet purchased)
 ### Electronics/electrical
+- 1 * Raspberry Pi 5 + active fan
+- 1 * Intel Realsense D435
+- 1 * STM32F103C8T6 - For encoder offloading
 - 2 * 310 Encoder Motors, Rated Voltage 7.4V, Rated Power 4.8W, Gear 1:20, 9000 RPM (~450 RPM after reduction) , Rated Torque 0.4 kg*cm, AB phase Hall Encoder
 - 1 * Raspberry Pi 5 power extension board from Yahboom
-- 1 * STM32F103C8T6 - For encoder offloading
 - 1 * 3S 5000 mah 100C T-connector LiPo
 - 1 * 12/24V to 5V 10A step down buck converter
 - 1 * 1 Male to 2 Female T-connector splitter
@@ -32,3 +35,4 @@ Determining when to merge with other robots is a paired problem with determining
 ### Accessories
 - 1 * LiPo charger
 - 1 * USB Isolator -1500V, ADUM3160 (maybe)
+- 1 * STLink V2
