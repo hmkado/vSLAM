@@ -9,6 +9,30 @@ Based on my thesis, Anti-cohesion swarming. Similar to Boids.
 Determining when to merge with other robots is a paired problem with determining which way to merge.
 See [Explanation](IDEA.md)
 
+## Current
+### Checklist
+1. Define the mission and objectives.
+2. Define constraints and platform capabilities.
+3. Construct a theory and approach.
+4. Specification of the platform and construct parts list.
+5. Procure parts (ongoing, incremental)
+6. Build simulation environment
+7. Refine foundational theory through simulation
+8. Construct the platform
+9. Test the platform
+10. Deploy algorithm to platform, test theory
+11. Troubleshooting and performance assessment
+12. Refine algorithm as needed
+
+### Progress Summary
+- Acquired D435, RPI 5, STM32
+- D435, RPI 5, STM32 are functional
+- Python random walk simulation built
+- RPI 5, ROS2 Jazzy, librealsense installed on Ubuntu 24.04
+- Tested blink STM32
+- RPI 5 recognizes D435
+
+## Parts list
 ## What we have now
 - 1 * Raspberry Pi 5 + active fan
 - 1 * Intel Realsense D435
@@ -18,7 +42,6 @@ See [Explanation](IDEA.md)
 - 1 * bracket for chassis
 - 1 * STLink V2
 
-## Parts list
 ### Electronics/electrical
 - ~1 * Raspberry Pi 5 + active fan (Acquired)~
 - ~1 * Intel Realsense D435 (Purchased)~
