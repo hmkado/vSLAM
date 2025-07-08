@@ -27,7 +27,7 @@ See [Explanation](IDEA.md)
 ### Progress Summary
 - Acquired D435, RPI 5, STM32
 - D435, RPI 5, STM32 are functional
-- Python random walk simulation built
+- Python biased random walk simulation built
 - RPI 5, ROS2 Jazzy, librealsense installed on Ubuntu 24.04
 - Tested blink STM32
 - RPI 5 recognizes D435
